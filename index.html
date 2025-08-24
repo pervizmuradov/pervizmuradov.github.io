@@ -1,1 +1,288 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pərviz Muradov - CV</title>
+  <style>
+    /* Ümumi stil */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
+    body {
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.7;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+
+    .contact-info {
+      margin-top: 15px;
+      font-size: 0.95em;
+      opacity: 0.8;
+    }
+
+    main {
+      padding: 40px;
+    }
+
+    section {
+      margin-bottom: 30px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 20px;
+    }
+
+    h2 {
+      color: #2c3e50;
+      font-size: 1.6em;
+      margin-bottom: 15px;
+      position: relative;
+      padding-bottom: 8px;
+    }
+
+    h2::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 60px;
+      height: 3px;
+      background: #3498db;
+      border-radius: 2px;
+    }
+
+    p {
+      margin-bottom: 12px;
+      color: #555;
+    }
+
+    ul {
+      list-style: none;
+      margin-left: 10px;
+    }
+
+    ul li::before {
+      content: "•";
+      color: #3498db;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+
+    .list-item {
+      margin: 10px 0;
+      padding-left: 10px;
+    }
+
+    .education-item, .experience-item {
+      background: #f9fafa;
+      padding: 18px;
+      border-left: 4px solid #3498db;
+      margin-bottom: 15px;
+      border-radius: 0 6px 6px 0;
+      transition: transform 0.3s ease;
+    }
+
+    .education-item:hover, .experience-item:hover {
+      transform: translateX(5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .institution {
+      font-weight: bold;
+      color: #2c3e50;
+      font-size: 1.1em;
+    }
+
+    .duration {
+      color: #7f8c8d;
+      font-style: italic;
+      font-size: 0.95em;
+    }
+
+    .skills li, .qualities li {
+      display: inline-block;
+      background: #eef7ff;
+      color: #2c3e50;
+      padding: 6px 12px;
+      margin: 4px;
+      border-radius: 20px;
+      font-size: 0.9em;
+      border: 1px solid #d0e7ff;
+    }
+
+    .skills li:hover, .qualities li:hover {
+      background: #3498db;
+      color: white;
+      transition: 0.3s;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #7f8c8d;
+      font-size: 0.9em;
+      background: #f1f3f5;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header, main {
+        padding: 25px;
+      }
+      header h1 {
+        font-size: 2em;
+      }
+      .container {
+        margin: 15px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>MURADOV PƏRVİZ</h1>
+      <p>Riyaziyyat Müəllimi / Pedaqoji Təcrübə</p>
+      <div class="contact-info">
+        📞 (+994) 51 750 91 65 | ✉️ pervizmuradov.31@gmail.com | 📍 Azərbaycan, Yardımlı rayonu
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Haqqımda</h2>
+        <p>
+          Riyaziyyat və informasiya texnologiyaları sahəsində ali təhsilli, dövlət qulluq sertifikatına malik, analitik düşünən və təhlil qabiliyyəti yüksək bir mütəxəssisəm. Təcrübəm həm pedaqoji fəaliyyət, həm də istehsalat sahələrinə aid işlərə aiddir. Məsuliyyətli, operativ və təşəbbüskar yanaşma ilə tapşırıqları vaxtında və keyfiyyətlə yerinə yetirirəm. Kollektivlə effektiv ünsiyyət qurmaq, problemləri samarəli həll etmək və idarəetmə bacarıqları mənim əsas güclü tərəflərimdir.
+        </p>
+      </section>
+
+      <section>
+        <h2>Təhsil</h2>
+
+        <div class="education-item">
+          <div class="institution">Azerbaycan Dövlət Pedaqoji Universiteti</div>
+          <p><strong>Riyaziyyat müəllimliyi</strong> | 2017 – 2020</p>
+          <p>Ali təhsil</p>
+        </div>
+
+        <div class="education-item">
+          <div class="institution">Azerbaycan Dövlət İqtisad Universiteti</div>
+          <p><strong>İnformasiya texnologiyaları və sistemləri mühəndisliyi</strong> | 2011 – 2015</p>
+          <p>Bakalavr</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>İş Təcrübəsi</h2>
+
+        <div class="experience-item">
+          <div class="institution">Azərbaycan Respublikasının Rabitə və Yüksək Texnologiyalar Nazirliyi</div>
+          <p class="duration">29.03.2015 – 11.05.2015</p>
+          <p><strong>İstehsalat təcrübəsi</strong></p>
+          <ul>
+            <li class="list-item">Təcrübə zamanı texnoloji proseslərlə tanış oldum</li>
+            <li class="list-item">İş proseslərinin planlaşdırılması və icrası</li>
+            <li class="list-item">Təchizatın işlənməsinə baxım</li>
+          </ul>
+        </div>
+
+        <div class="experience-item">
+          <div class="institution">Bakı şəhəri, 248 nömrəli tam orta məktəb</div>
+          <p class="duration">17.02.2020 – 25.05.2020</p>
+          <p><strong>Pedaqoji (ixtisas) təcrübə, Riyaziyyat müəllimi</strong></p>
+          <ul>
+            <li class="list-item">5–11-ci siniflərdə riyaziyyat dərsi keçirilməsi</li>
+            <li class="list-item">Şagirdlərin bilik səviyyəsinin qiymətləndirilməsi</li>
+            <li class="list-item">Təlim materiallarının hazırlanması və tədris metodları ilə işləmək</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Proqram Bilikləri</h2>
+        <ul class="skills">
+          <li>Microsoft Windows</li>
+          <li>Microsoft Word</li>
+          <li>Microsoft Excel</li>
+          <li>Microsoft PowerPoint</li>
+          <li>İnternetin effektiv istifadəsi</li>
+          <li>MS Office paketi</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Sertifikatlar</h2>
+        <ul>
+          <li class="list-item">Dövlət Qulluq Sertifikatı – BB2</li>
+          <li class="list-item">İctimai təşkilatlarla işləmə sertifikatı (əgər varsa)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Hərbi Status</h2>
+        <ul>
+          <li class="list-item">Hərbi mükəlləfiyyətli</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Əlavə Məlumat</h2>
+        <ul>
+          <li class="list-item"><strong>Dil bilikləri:</strong> Azərbaycanca (ana dil), Rusca (orta), İngiliscə (orta)</li>
+          <li class="list-item"><strong>Keyfiyyətlər:</strong> Kollektivlə işləmə, təhlil etmə, məsuliyyət, puntuallıq</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Keyfiyyətlər</h2>
+        <ul class="qualities">
+          <li>Effektiv ünsiyyət qurma</li>
+          <li>Mantıqi təfəkkür</li>
+          <li>Təşəbbüskarlıq</li>
+          <li>İşə sadiqlik</li>
+          <li>İnkişaf istəyi</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      © 2025 Pərviz Muradov — CV
+    </footer>
+  </div>
+
+</body>
+</html>
